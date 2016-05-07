@@ -68,5 +68,6 @@
     "decoratorTemplates": "",
     "providerTemplates": "",
     "routeTemplates": ""
-  }
+  },
+  "generator-mocha": {}
 }
