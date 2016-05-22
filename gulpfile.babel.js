@@ -678,4 +678,4 @@ gulp.task('buildcontrol:openshift', function(done) {
     );
 });
 
-console.log("hello from spiros");
+/* skjadkjsakdjsak askdkasndka */
