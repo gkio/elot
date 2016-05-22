@@ -4,9 +4,15 @@
     <li class="list-group-item" ng-repeat="user in admin.users">
 	    <div class="user-info">
 	        <strong>{{user.name}}</strong><br>
-	        <span class="text-muted">{{user.email}}</span>
+          <span class="text-muted">{{user.email}}</span>
+          <span class="text-muted">{{user.chat}}</span>
+          <span style="text-transform: capitalize; color:#BADA55" class="text-muted">{{user.role}}</span>
+          <span class="text-muted">{{user.balance | currency:"EUR "}}</span>
 	    </div>
         <a ng-click="admin.delete(user)" class="trash"><span class="fa fa-trash fa-2x"></span></a>
+        <a ng-click="admin.edit(user)" class="edit">
+          <span>EDIT</span>
+        </a>
     </li>
   </ul>
 </div>

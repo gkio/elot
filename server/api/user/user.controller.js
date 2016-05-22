@@ -76,6 +76,7 @@ export function destroy(req, res) {
     .catch(handleError(res));
 }
 
+
 /**
  * Change a users password
  */

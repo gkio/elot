@@ -24,6 +24,16 @@ var UserSchema = new Schema({
     type: String,
     default: 'user'
   },
+  // NEW
+  balance: {
+    type: Number,
+    default: 0
+  },
+  chat:{
+    type: Boolean,
+    default:false
+  },
+  // NEW FINISHED
   password: {
     type: String,
     required: function() {

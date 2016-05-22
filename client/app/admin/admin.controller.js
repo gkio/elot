@@ -12,6 +12,14 @@ class AdminController {
     user.$remove();
     this.users.splice(this.users.indexOf(user), 1);
   }
+
+  edit(user){
+  	console.log(user)
+  	user.$edit(function(user){
+  		console.log(user.email)
+  		user.chat = true;
+  	})
+  }
 }
 
 angular.module('elottyApp.admin')
