@@ -677,3 +677,5 @@ gulp.task('buildcontrol:openshift', function(done) {
         function() {done();}
     );
 });
+
+console.log("hello from spiros");
